@@ -1,0 +1,43 @@
+body {
+  padding-top: 10px;
+}
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+
+div.olMap
+{
+  cursor: default;
+  height: 500px;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  z-index: 0;
+}
+
+.col-lg-4 { line-height: 100px; }
+.col-md-8 { line-height: 200px; }
+.col-md-12 { line-height: 80px; }
